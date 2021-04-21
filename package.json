@@ -1,0 +1,28 @@
+{
+  "name": "angular-express-webserver",
+  "version": "1.0.0",
+  "description": "\"# angular-express-webserver\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./bin/www"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SwincikJr/angular-express-webserver.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SwincikJr/angular-express-webserver/issues"
+  },
+  "homepage": "https://github.com/SwincikJr/angular-express-webserver#readme",
+  "dependencies": {
+    "cookie-parser": "^1.4.5",
+    "debug": "^4.3.1",
+    "express": "^4.17.1",
+    "file-system": "^2.2.2",
+    "http": "0.0.1-security",
+    "https": "^1.0.0"
+  }
+}
