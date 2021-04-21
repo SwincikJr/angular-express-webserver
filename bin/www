@@ -32,7 +32,9 @@ var server = ssl ? http.createServer(sslOpt, app) : http.createServer(app);
  * Listen on provided port, on all network interfaces.
  */
 
-server.listen(port);
+server.listen(port, () => {
+    console.log(`server listening on port ${process.env.PORT}\nSSL: ${process.env.ACTIVATE_SSL}`)
+});
 server.on('error', onError);
 server.on('listening', onListening);
 
